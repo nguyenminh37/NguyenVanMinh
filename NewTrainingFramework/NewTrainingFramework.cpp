@@ -8,7 +8,6 @@
 #include "Globals.h"
 #include <conio.h>
 
-
 GLuint vboId;
 unsigned int iboId;
 
@@ -16,9 +15,6 @@ GLuint posLocation;
 
 Shaders myShaders;
 GLuint textureID;
-
-
-
 int Init(ESContext* esContext)
 {
     glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
@@ -38,8 +34,6 @@ int Init(ESContext* esContext)
     verticesData[1].uv.x = 0.0f;  verticesData[1].uv.y = 0.0f;
     verticesData[2].uv.x = 0.0f;  verticesData[2].uv.y = 1.0f;
 
-    
-
     //buffer object
     glGenBuffers(1, &vboId);
     glBindBuffer(GL_ARRAY_BUFFER, vboId);
@@ -56,9 +50,6 @@ int Init(ESContext* esContext)
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
-
-   
-
 
     glBindTexture(GL_TEXTURE_2D, 0);
 
