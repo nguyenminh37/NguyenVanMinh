@@ -39,6 +39,9 @@
     <ClCompile Include="TGA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NFG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="esUtil.h">

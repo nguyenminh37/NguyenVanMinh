@@ -1,1 +1,22 @@
-﻿  Utilities.vcxproj -> C:\Users\GLSchool01\Desktop\NguyenVanMinh-main\NewTrainingFramework\Debug\Utilities.lib
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  stdafx.cpp
+cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  TGA.cpp
+  NFG.cpp
+  MemoryOperators.cpp
+  MemoryManager.cpp
+  Math.cpp
+  esUtil_win.cpp
+C:\Users\GLSchool01\Desktop\NguyenVanMinh-main\NewTrainingFramework\Utilities\Math.cpp(10,13): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file '/Math.cpp')
+  
+C:\Users\GLSchool01\Desktop\NguyenVanMinh-main\NewTrainingFramework\Utilities\Math.cpp(104,13): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file '/Math.cpp')
+  
+C:\Users\GLSchool01\Desktop\NguyenVanMinh-main\NewTrainingFramework\Utilities\Math.cpp(208,13): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file '/Math.cpp')
+  
+  esUtil.cpp
+  esShader.cpp
+  Generating Code...
+  Utilities.vcxproj -> C:\Users\GLSchool01\Desktop\NguyenVanMinh-main\NewTrainingFramework\Debug\Utilities.lib
